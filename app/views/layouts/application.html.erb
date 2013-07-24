@@ -9,7 +9,13 @@
 </head>
 <body>
   <div class="container">
-    <%= yield %>
+    <header>
+      <%= render "shared/header" %>
+    </header>
+    <%= render "shared/navigation" %>
+    <div class="content">
+      <%= yield %>
+    </div>
   </div>
 </body>
 </html>
