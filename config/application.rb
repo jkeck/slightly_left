@@ -21,3 +21,5 @@ module SlightlyLeft
     # config.i18n.default_locale = :de
   end
 end
+SlightlyLeft::Application.config.instagram_access_token = ENV["INSTAGRAM_AUTH_TOKEN"] || ""
+SlightlyLeft::Application.config.allowed_instagram_ids = ENV["INSTAGRAM_IDS"] || []
