@@ -1,0 +1,16 @@
+.images {
+	margin-left: -15px;
+	.image {
+		cursor: pointer;
+		float: left;
+		margin: 15px;
+	}
+}
+.image-modal {
+	.modal-header {
+		text-align: center;
+	}
+	.modal-body {
+		min-height: 530px;
+	}
+}

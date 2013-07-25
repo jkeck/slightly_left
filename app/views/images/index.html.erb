@@ -1,0 +1,8 @@
+<h3>Our Images from Instagram</h3>
+<div class="images">
+  <%- @images.each_with_index do |image, index| -%>
+    <div class="image">
+      <%= image_tag(image.thumbnail_url, id: "image-#{index}", :"data-behavior" => "image-popup", :"data-full-url" => image.full_url, :"data-caption" => image.caption) %>
+    </div>
+  <%- end -%>
+</div>
