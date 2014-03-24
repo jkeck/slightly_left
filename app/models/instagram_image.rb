@@ -62,7 +62,7 @@ class InstagramImage
     SlightlyLeft::Application.config.instagram_access_token
   end
   def known_user_ids
-    SlightlyLeft::Application.config.allowed_instagram_ids
+    SlightlyLeft::Application.config.allowed_instagram_ids.split(",").map(&:strip)
   end
   def self.source
     "Instagram"
