@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20130725042357) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "images", force: true do |t|
     t.string   "thumbnail_url"
     t.string   "full_url"
