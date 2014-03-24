@@ -22,4 +22,4 @@ module SlightlyLeft
   end
 end
 SlightlyLeft::Application.config.instagram_access_token = ENV["INSTAGRAM_AUTH_TOKEN"] || ""
-SlightlyLeft::Application.config.allowed_instagram_ids = ENV["INSTAGRAM_IDS"] || []
+SlightlyLeft::Application.config.allowed_instagram_ids = ENV["INSTAGRAM_IDS"] || ""
