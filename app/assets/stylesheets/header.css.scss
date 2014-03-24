@@ -1,6 +1,13 @@
 header {
-	text-align: center;
-	img {
-		width: 100%;
-	}
+  .hero-unit {
+    margin: 7px 0 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    background-image: asset-url('sl-cover.jpg');
+    height: 195px;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
 }
