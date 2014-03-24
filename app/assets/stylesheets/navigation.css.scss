@@ -1,27 +1,5 @@
-$nav_border_color: #666;
-nav {
-	.nav-wrapper {
-    border: 1px solid $nav_border_color;
-		background: -webkit-gradient(linear, 0% 0%, 0% 100%, to(#2F2727), from(#000));
-		background: -webkit-linear-gradient(bottom, #2F2727, #000);
-		background: -moz-linear-gradient(bottom, #2F2727, #000);
-		background: -ms-linear-gradient(bottom, #2F2727, #000);
-		background: -o-linear-gradient(bottom, #2F2727, #000);
-		ul {
-			margin: 0;
-			li {
-				list-style-type: none;
-				float: left;
-				a {
-					border-right: 1px solid $nav_border_color;
-					display: block;
-					padding: 8px 15px;
-					&:hover {
-						text-decoration: none;
-						color: #CCC;
-					}
-				}
-			}
-		}
-	}
+.navbar {
+  .brand {
+    font-weight: 800;
+  }
 }
